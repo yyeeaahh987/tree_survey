@@ -1,0 +1,74 @@
+/* .encyclopedia {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+    padding: 0 12px;
+  }
+  .encyclopedia .pics{
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+  .encyclopedia .pics:hover{
+    filter: opacity(.8);
+  }
+  .model.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .model img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0 20px;
+    margin: 0 auto;
+  }
+  .model.open svg{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    cursor: pointer;
+  }
+  @media (max-width: 960px){
+    .encyclopedia {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+    }
+}
+  @media (max-width: 480px){
+    .encyclopedia {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+      -webkit-column-width: 100%;
+      -moz-column-width: 100%;
+      column-width: 100%;
+    }
+} */
+
+
+.card{
+  -webkit-box-shadow: 5px 5px 15px -5px #6E6E6E; 
+box-shadow: 5px 5px 15px -5px #6E6E6E;
+}
+.outerestBox{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.printoutText{
+  font-size: 25px;
+  margin-top: 10px;
+}
