@@ -57,6 +57,10 @@ function Encyclopedia() {
   function generatePDF (data){
     const doc = new jsPDF();
     console.log(data)
+        /*
+    addimage 第1個係圖片,2係格式, 3係x coordinate ,4係y coordinate, 5係圖片width , 6 係圖片height
+    */
+    doc.addImage(`${PUBLIC_URL}/assets/images/${selectedTree.photo1}`,'jpg',10,0,10,10)
     doc.text(`Scientific Name: ${data["scientificName\t"]}`, 10, 10);
     doc.text(`Common Name: ${data.commonName}`, 10, 20);
     doc.text(`Family: ${data.familyName}`, 10, 30);
